@@ -4,7 +4,7 @@ LABEL maintainer="Jeffrey Chang <me@jeffchang.io>"
 
 USER root
 
-RUN pip install \
+RUN conda install \
     'tensorflow' \ 
     'numpy' \
     'scikit-learn'
